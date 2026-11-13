@@ -6,6 +6,7 @@ SPDX-License-Identifier: MIT
 import json, os, sys, urllib.error, urllib.request
 
 ENV_URL = os.environ.get("MAKEFUN_ENV_URL") or sys.exit("MAKEFUN_ENV_URL is not set")
+# Standard piece valuation weights
 VAL = {"p": 100, "n": 320, "b": 330, "r": 500, "q": 900, "k": 20000}
 
 PST_P = [
